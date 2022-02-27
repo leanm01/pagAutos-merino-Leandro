@@ -1,0 +1,874 @@
+/*
+flex index /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+/*prueba*/
+.flex_main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.img_paraMain {
+    width: 100px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.img_paraMain img {
+    margin: 0;
+    padding: 0;
+}
+
+.flex_mainDos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.imagenFlex {
+    width: 600px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.imagenFlex img {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+grid index ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.grid_card {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 40px 100px;
+    margin: 40px 100px;
+    background-image: url(../assets/imagenes/neon-4k-8k-hd-wallpaper-preview.jpg);
+    border: 2px solid #20e2d7;
+    background-attachment: fixed;
+}
+
+.card_titulo {
+    margin: 20px 20px;
+    padding: 20px 20px;
+    padding-left: 640px;
+    font-size: 35px;
+    color: #20e2d7;
+}
+
+.grid_card_numeroDos {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 40px 200px;
+    margin: 100px 20px;
+    Border: 2px solid #20e2d7;
+    background-image: url(../assets/imagenes/neon-4k-8k-hd-wallpaper-preview.jpg);
+    background-attachment: fixed;
+}
+
+.gridIndex_verCatalogo {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 40px 50px;
+    margin: 60px 800px;
+    Border: 2px solid #20e2d7;
+    background-color: #000000b7;
+    text-transform: uppercase;
+}
+
+.linkIndex_catalogo {
+    padding-left: 33px;
+}
+
+.aDelIndex_Catalogo {
+    color: #20e2d7;
+}
+
+.gridImagenesMain_index {
+    display: grid;
+    grid-gap: 90px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 40px 150px;
+    grid-template-areas: "imagenParaGridMainUno imagenParaGridMainDos imagenParaGridMainTres imagenParaGridMainCuatro" "imagenParaGridMainUno imagenParaGridMainDos imagenParaGridMainTres imagenParaGridMainCuatro";
+}
+
+.imagenParaGridMainUno {
+    height: 200px;
+    width: 400px;
+}
+
+.imagenParaGridMainDos {
+    height: 200px;
+    width: 400px;
+}
+
+.imagenParaGridMainTres {
+    height: 200px;
+    width: 400px;
+}
+
+.imagenParaGridMainCuatro {
+    height: 200px;
+    width: 400px;
+}
+
+
+/*
+Index ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+
+body {
+    background-image: url(../assets/imagenes/89-895507_skyscrapers-in-night-city-wallpaper-city-night-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+    
+}
+
+footer {
+    background-color: #000000a8;
+    bottom: 0;
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    min-height: 10vh;
+    display: grid;
+    grid-template-areas: "footer";
+    gap: 1rem;
+}
+
+.img_paraMain {
+    height: 400px;
+    width: 600px;
+}
+
+.img_paraMaindos {
+    height: 400px;
+    width: 600px;
+}
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+}
+
+.d-block{
+
+    height: 700px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+
+
+}
+
+.btn{
+
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+
+
+.btn:hover{
+    color: #ffffff;
+}
+
+.bg-light{
+
+    background-color: #ffffff80!important;
+    text-transform: uppercase;
+}
+
+.navbar-nav{
+
+    width: 100%;
+    height: 220px;
+    justify-content: center;
+  
+}
+
+.navbar{
+
+    flex-wrap: nowrap;
+
+}
+.navbar-light .navbar-toggler{
+
+    border-color: rgb(0, 0, 0);
+    width: 2.4em;
+    height: 2.2em;
+
+}
+
+nav {
+    background-color: #0000001e;
+    width: 100%;
+    height: 100px;
+    text-transform: uppercase;
+    border: 2px solid #20e2d7;
+}
+
+nav ul {
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 39px;
+    font-size: 30px;
+    border-radius: 8px;
+    padding-top: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 2px;
+}
+
+.header_logo {
+    height: 94px;
+    width: 120px;
+}
+
+.header_logo:hover {
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.header_logo img {
+    width: 100px;
+    height: auto;
+}
+
+.footer_titulo {
+    font-size: 25px;
+    color: #20e2d7;
+    padding-left: 850px;
+}
+
+.imgDiv {
+    padding-left: 870px;
+}
+
+.imgIg {
+    height: 30px;
+    width: 40px;
+}
+
+.imgTw {
+    height: 30px;
+    width: 30px;
+}
+
+.imgYt {
+    height: 30px;
+    width: 30px;
+}
+
+.imgFb {
+    height: 30px;
+    width: 30px;
+}
+
+.copy {
+    font-size: 15px;
+    color: #fafafa;
+}
+
+@media all and (max-width: 1023px){
+
+    nav {
+        height: 80px;
+    }
+    nav ul {
+        padding-top: 1px;
+    }
+    nav ul li {
+        margin: 1px;
+        font-size: 18px;
+        padding: 1px;
+    }
+
+    .navbar{
+
+        padding: 7.5rem 1rem;
+      
+    }
+
+    .header_logo img {
+        padding-top: 7px;
+        width: 100px;
+    }
+    .grid_card {
+        padding: 40px 5px;
+        margin: 40px 5px;
+    }
+    .card_titulo {
+        margin: 20px 10px;
+        padding: 20px 10px;
+        padding-left: 340px;
+        font-size: 20px;
+    }
+    .grid_card_numeroDos {
+        padding: 40px 20px;
+        margin: 100px 20px;
+    }
+    .gridIndex_verCatalogo {
+        padding: 40px 50px;
+        margin: 60px 50px;
+        justify-content: center;
+    }
+    footer {
+        width: 100%;
+        height: 15px;
+        min-height: 10vh;
+    }
+    .footer_titulo {
+        font-size: 15px;
+        padding-left: 350px;
+    }
+    .imgDiv {
+        padding-left: 340px;
+    }
+    .imgIg {
+        height: 20px;
+        width: 30px;
+    }
+    .imgTw {
+        height: 20px;
+        width: 30px;
+    }
+    .imgYt {
+        height: 20px;
+        width: 30px;
+    }
+    .imgFb {
+        height: 20px;
+        width: 30px;
+    }
+    .copy {
+        font-size: 5px;
+    }
+    .flex_main {
+        padding: 5px;
+        width: 100%;
+    }
+    .img_paraMain {
+        padding: 5px;
+        font-size: 10px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .imagenFlex {
+        width: 200px;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .gridImagenesMain_index {
+        grid-gap: 72px;
+        grid-template-columns: auto;
+        grid-template-rows: 165px 164px;
+        grid-template-areas:  
+        "imagenParaGridMainUno" 
+        "imagenParaGridMainDos" 
+        "imagenParaGridMainTres" 
+        "imagenParaGridMainCuatro";
+        justify-content: center;
+    }
+
+}
+
+@media all and (max-width: 769px) {
+    nav {
+        height: 80px;
+    }
+    nav ul {
+        padding-top: 1px;
+    }
+    nav ul li {
+        margin: 1px;
+        font-size: 12px;
+        padding: 1px;
+    }
+    
+    .navbar{
+
+        padding: 5.5rem 1rem;
+      
+    }
+
+    .d-block{
+
+        height: 200px;
+        width: 200px;
+
+    }
+
+    .header_logo img {
+        padding-top: 7px;
+        width: 90px;
+    }
+    .grid_card {
+        padding: 40px 5px;
+        margin: 40px 5px;
+    }
+    .card_titulo {
+        margin: 20px 10px;
+        padding: 20px 10px;
+        padding-left: 135px;
+        font-size: 20px;
+    }
+    .grid_card_numeroDos {
+        padding: 40px 20px;
+        margin: 100px 20px;
+    }
+    .gridIndex_verCatalogo {
+        padding: 40px 50px;
+        margin: 60px 50px;
+    }
+    footer {
+        width: 100%;
+        height: 15px;
+        min-height: 10vh;
+    }
+    .footer_titulo {
+        font-size: 15px;
+        padding-left: 140px;
+    }
+    .imgDiv {
+        padding-left: 128px;
+    }
+    .imgIg {
+        height: 20px;
+        width: 30px;
+    }
+    .imgTw {
+        height: 20px;
+        width: 30px;
+    }
+    .imgYt {
+        height: 20px;
+        width: 30px;
+    }
+    .imgFb {
+        height: 20px;
+        width: 30px;
+    }
+    .copy {
+        font-size: 5px;
+    }
+    .flex_main {
+        padding: 5px;
+        width: 100%;
+    }
+    .img_paraMain {
+        padding: 5px;
+        font-size: 10px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .imagenFlex {
+        width: 200px;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .gridImagenesMain_index {
+        grid-gap: 72px;
+        grid-template-columns: auto;
+        grid-template-rows: 165px 164px;
+        grid-template-areas:  
+        "imagenParaGridMainUno" 
+        "imagenParaGridMainDos" 
+        "imagenParaGridMainTres" 
+        "imagenParaGridMainCuatro";
+    }
+}
+
+
+/*
+flex catalogo ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.flex-item {
+    width: 600px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.flex-item img {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+ grid catalogo //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.grid-container_catalogo {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 40px;
+    justify-content: center;
+    grid-row-gap: 20px;
+}
+
+.grid-item {
+    border: 2px solid #20e2d7;
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: #00000050;
+    text-transform: uppercase;
+}
+
+
+/*
+catalogo de autos //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+main {
+    overflow: hidden;
+}
+
+.sport_imagen {
+    height: 400px;
+    width: 600px;
+    padding-left: 640px;
+}
+
+.bronco_imagen {
+    height: 400px;
+    width: 600px;
+    padding-left: 640px;
+}
+
+.accord_imagen {
+    height: 400px;
+    width: 600px;
+    padding-left: 640px;
+}
+
+.civic_imagen {
+    height: 400px;
+    width: 600px;
+    padding-left: 640px;
+}
+
+.rover_imagen {
+    height: 400px;
+    width: 600px;
+    padding-left: 640px;
+}
+
+.aventador_imagen {
+    height: 400px;
+    width: 600px;
+    padding-left: 640px;
+}
+
+@media all and (max-width: 769px){
+
+    .grid-container_catalogo {
+        
+        grid-template-columns: auto auto auto auto;
+        padding: 5px;
+        grid-row-gap: 5px;
+    }
+
+    .grid-item {
+       
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+}
+
+/*
+grid contactos //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.gridCard_contactos {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 40px 50px;
+    margin: 40px 50px;
+    background-image: url(../assets/imagenes/neon-4k-8k-hd-wallpaper-preview.jpg);
+    border: 2px solid #20e2d7;
+    background-attachment: fixed;
+}
+
+.condiciones_contactoDos {
+    padding-left: 740px;
+    font-size: 20px;
+    color: #20e2d7;
+}
+
+.titulo_infoContactos {
+    color: #fcfcfc;
+    padding-left: 740px;
+}
+
+/*
+registrarse ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.contacto_de_autos {
+    height: 527px;
+    width: 572px;
+    margin: 20px 720px;
+    padding: 54px 126px;
+    background-color: #00000050;
+    text-transform: uppercase;
+    border: 2px solid #20e2d7;
+}
+
+.botones_contactos {
+    padding-left: 100px;
+}
+
+.condiciones_contacto {
+    font-size: 15px;
+    color: #20e2d7;
+}
+
+input {
+    transition: all 2s;
+}
+
+input:focus {
+    width: 55;
+    height: 60;
+    font-size: 30px;
+}
+
+@media all and (max-width: 1023px){
+
+
+    .contacto_de_autos {
+        height: 799px;
+         width: 434px;
+         margin: 15px 163px;
+         padding: 15px 15px;
+         border: none;
+    }
+    .gridCard_contactos {
+        
+        padding: 10px 15px;
+        margin: 10px 15px;
+       
+    }
+    .condiciones_contactoDos {
+        padding-left: 250px;
+        font-size: 20px;
+        
+    }
+    
+    .titulo_infoContactos {
+        padding-left: 250px;
+    }
+
+
+
+}
+
+@media all and (max-width: 769px){
+
+    .contacto_de_autos {
+        height: 512px;
+        width: 435px;
+        margin: 5px 1px;
+        padding: 5px 5px;
+        border: none;
+    }
+    .gridCard_contactos {
+        
+        padding: 10px 15px;
+        margin: 10px 15px;
+       
+    }
+    .condiciones_contactoDos {
+        padding-left: 45px;
+        font-size: 20px;
+        
+    }
+    
+    .titulo_infoContactos {
+         padding-left: 90px;
+    }
+
+
+}
+
+
+/* 
+flex videos ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.flex_videos_infor {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.explicacion_autos {
+    width: 600px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+/*
+grid videos ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.gridCard_videos {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 40px 50px;
+    margin: 40px 50px;
+    background-image: url(../assets/imagenes/neon-4k-8k-hd-wallpaper-preview.jpg);
+    border: 2px solid #20e2d7;
+    background-attachment: fixed;
+}
+
+.titulo_info {
+    padding-left: 740px;
+    font-size: 25px;
+    color: #20e2d7;
+}
+
+.texto_masInfo {
+    text-align: center;
+    font-size: 20px;
+    color: #fcfcfc;
+}
+/*
+mas sobre autos ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.video_autos {
+    font-size: 40px;
+    color: #20e2d7;
+}
+
+.video_autosDos {
+    font-size: 40px;
+    color: #20e2d7;
+}
+
+@media all and (max-width: 1023px){
+
+    .gridCard_videos {
+        
+        padding: 10px 10px;
+        margin: 20px 20px;
+    }
+
+    .titulo_info {
+        padding-left: 280px;
+        font-size: 20px;
+        
+    }
+
+    .video_autos {
+        font-size: 20px;
+        padding-left: 205px;
+        
+    }
+    
+    .video_autosDos {
+        font-size: 20px;
+        padding-left: 205px;
+        
+    }
+
+
+}
+
+@media all and (max-width: 769px){
+
+    .gridCard_videos {
+        
+        padding: 10px 10px;
+        margin: 20px 20px;
+    }
+
+    .titulo_info {
+        padding-left: 87px;
+        font-size: 20px;
+        
+    }
+
+    .video_autos {
+        font-size: 20px;
+        padding-left: 205px;
+        
+    }
+    
+    .video_autosDos {
+        font-size: 20px;
+        padding-left: 205px;
+        
+    }
+
+
+}
+
+
+
+/*
+Ubicacion ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+#mapaGoogle iframe {
+    width: 100%;
+    height: 620px;
+    padding-top: 20px;
+}
+
