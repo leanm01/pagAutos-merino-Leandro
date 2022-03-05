@@ -1,0 +1,46 @@
+footer {
+    background-color: #000000a8;
+    bottom: 0;
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    min-height: 10vh;
+    display: grid;
+    grid-template-areas: "footer";
+    gap: 1rem;
+}
+
+.footer_titulo {
+    font-size: 25px;
+    color: #20e2d7;
+    padding-left: 850px;
+}
+
+.imgDiv {
+    padding-left: 870px;
+}
+
+.imgIg {
+    height: 30px;
+    width: 40px;
+}
+
+.imgTw {
+    height: 30px;
+    width: 30px;
+}
+
+.imgYt {
+    height: 30px;
+    width: 30px;
+}
+
+.imgFb {
+    height: 30px;
+    width: 30px;
+}
+
+.copy {
+    font-size: 15px;
+    color: #fafafa;
+}
