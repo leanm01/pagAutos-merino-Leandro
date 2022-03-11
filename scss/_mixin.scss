@@ -1,0 +1,12 @@
+@mixin colorYDemas($color, $fSize){
+
+    color:$color;
+    font-size: $fSize;
+
+}
+
+div.gridCard_contactos{
+
+    @include colorYDemas(#20e2d7, 40px);
+
+}

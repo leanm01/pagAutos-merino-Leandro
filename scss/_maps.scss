@@ -1,0 +1,28 @@
+$coloresPrincipales:(
+
+        colorPrimario:#20e2d7,
+        colorSecundario:blue,
+        colorNegro:black,
+        colorBlanco:white
+
+);
+
+@each  $clave, $valor in $coloresPrincipales{
+
+     .#{$clave}{
+        color: #20e2d7;
+     }
+
+} 
+
+$estilos:(
+
+        color:#20e2d7,
+        padding-top:10px
+       
+);
+
+div.gridCard_videos{
+
+        color:map-get($estilos,color);
+}

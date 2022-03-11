@@ -140,18 +140,40 @@ input:focus {
   width: 600px;
   padding-left: 640px; }
 
+.colorPrimario {
+  color: #20e2d7; }
+
+.colorSecundario {
+  color: #20e2d7; }
+
+.colorNegro {
+  color: #20e2d7; }
+
+.colorBlanco {
+  color: #20e2d7; }
+
+div.gridCard_videos {
+  color: #20e2d7; }
+
+.btn, .btn-comentario {
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #ffffff; }
+
+.btn:hover, .btn-comentario:hover {
+  color: #ffffff; }
+
+.btn-comentario {
+  border: 1px solid black; }
+
+div.gridCard_contactos {
+  color: #20e2d7;
+  font-size: 40px; }
+
 /*
 flex index /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
-/*prueba*/
-.flex_main {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding: 10px;
-  width: 100%;
-  justify-content: center; }
-
 .img_paraMain {
   width: 100px;
   padding: 20px;
@@ -161,14 +183,6 @@ flex index /////////////////////////////////////////////////////////////////////
   margin: 0;
   padding: 0; }
 
-.flex_mainDos {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding: 10px;
-  width: 100%;
-  justify-content: center; }
-
 .imagenFlex {
   width: 600px;
   padding: 20px;
@@ -177,6 +191,69 @@ flex index /////////////////////////////////////////////////////////////////////
 .imagenFlex img {
   margin: 0;
   padding: 0; }
+
+/*
+grid index ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+.gridImagenesMain_index {
+  display: grid;
+  grid-gap: 90px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 40px 150px;
+  grid-template-areas: "imagenParaGridMainUno imagenParaGridMainDos imagenParaGridMainTres imagenParaGridMainCuatro" "imagenParaGridMainUno imagenParaGridMainDos imagenParaGridMainTres imagenParaGridMainCuatro"; }
+
+.imagenParaGridMainUno {
+  height: 200px;
+  width: 400px; }
+
+.imagenParaGridMainDos {
+  height: 200px;
+  width: 400px; }
+
+.imagenParaGridMainTres {
+  height: 200px;
+  width: 400px; }
+
+.imagenParaGridMainCuatro {
+  height: 200px;
+  width: 400px; }
+
+/*
+Index ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+.img_paraMain {
+  height: 400px;
+  width: 600px; }
+
+.img_paraMaindos {
+  height: 400px;
+  width: 600px; }
+
+/*
+flex catalogo ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+.flex-item img {
+  margin: 0;
+  padding: 0; }
+
+/*
+flex index /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+.flex_main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  width: 100%;
+  justify-content: center; }
+
+.flex_mainDos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  width: 100%;
+  justify-content: center; }
 
 /*
 grid index ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -221,29 +298,6 @@ grid index /////////////////////////////////////////////////////////////////////
 .aDelIndex_Catalogo {
   color: #20e2d7; }
 
-.gridImagenesMain_index {
-  display: grid;
-  grid-gap: 90px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 40px 150px;
-  grid-template-areas: "imagenParaGridMainUno imagenParaGridMainDos imagenParaGridMainTres imagenParaGridMainCuatro" "imagenParaGridMainUno imagenParaGridMainDos imagenParaGridMainTres imagenParaGridMainCuatro"; }
-
-.imagenParaGridMainUno {
-  height: 200px;
-  width: 400px; }
-
-.imagenParaGridMainDos {
-  height: 200px;
-  width: 400px; }
-
-.imagenParaGridMainTres {
-  height: 200px;
-  width: 400px; }
-
-.imagenParaGridMainCuatro {
-  height: 200px;
-  width: 400px; }
-
 /*
 Index ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
@@ -252,14 +306,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%; }
-
-.img_paraMain {
-  height: 400px;
-  width: 600px; }
-
-.img_paraMaindos {
-  height: 400px;
-  width: 600px; }
 
 * {
   font-family: 'Oswald', sans-serif; }
@@ -274,15 +320,6 @@ p {
   width: 50px;
   background-repeat: no-repeat;
   background-attachment: fixed; }
-
-.btn {
-  display: inline-block;
-  color: #ffffff;
-  text-align: center;
-  border: 1px solid #ffffff; }
-
-.btn:hover {
-  color: #ffffff; }
 
 .bg-light {
   background-color: #ffffff80 !important;
@@ -446,10 +483,6 @@ flex catalogo //////////////////////////////////////////////////////////////////
   width: 600px;
   padding: 20px;
   font-size: 30px; }
-
-.flex-item img {
-  margin: 0;
-  padding: 0; }
 
 /*
  grid catalogo //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

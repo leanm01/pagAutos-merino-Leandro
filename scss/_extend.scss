@@ -1,0 +1,15 @@
+.btn {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #ffffff; }
+  
+  .btn:hover {
+    color: #ffffff; }
+
+
+.btn-comentario{
+
+    @extend .btn;
+    border:1px solid black ;
+}

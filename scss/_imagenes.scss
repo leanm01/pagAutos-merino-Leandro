@@ -1,0 +1,80 @@
+/*
+flex index /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.img_paraMain {
+    width: 100px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.img_paraMain img {
+    margin: 0;
+    padding: 0;
+}
+
+.imagenFlex {
+    width: 600px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.imagenFlex img {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+grid index ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.gridImagenesMain_index {
+    display: grid;
+    grid-gap: 90px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 40px 150px;
+    grid-template-areas: "imagenParaGridMainUno imagenParaGridMainDos imagenParaGridMainTres imagenParaGridMainCuatro" "imagenParaGridMainUno imagenParaGridMainDos imagenParaGridMainTres imagenParaGridMainCuatro";
+}
+
+.imagenParaGridMainUno {
+    height: 200px;
+    width: 400px;
+}
+
+.imagenParaGridMainDos {
+    height: 200px;
+    width: 400px;
+}
+
+.imagenParaGridMainTres {
+    height: 200px;
+    width: 400px;
+}
+
+.imagenParaGridMainCuatro {
+    height: 200px;
+    width: 400px;
+}
+
+/*
+Index ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.img_paraMain {
+    height: 400px;
+    width: 600px;
+}
+
+.img_paraMaindos {
+    height: 400px;
+    width: 600px;
+}
+
+/*
+flex catalogo ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.flex-item img {
+    margin: 0;
+    padding: 0;
+}

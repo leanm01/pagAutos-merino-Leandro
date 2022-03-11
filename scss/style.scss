@@ -2,12 +2,16 @@
 @import "footer";
 @import "contactos";
 @import "catalogo";
+@import "maps";
+@import "extend";
+@import "mixin";
+@import "imagenes";
 
 /*
 flex index /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
 
-/*prueba*/
+
 .flex_main {
     display: flex;
     flex-wrap: wrap;
@@ -17,16 +21,6 @@ flex index /////////////////////////////////////////////////////////////////////
     justify-content: center;
 }
 
-.img_paraMain {
-    width: 100px;
-    padding: 20px;
-    font-size: 40px;
-}
-
-.img_paraMain img {
-    margin: 0;
-    padding: 0;
-}
 
 .flex_mainDos {
     display: flex;
@@ -35,17 +29,6 @@ flex index /////////////////////////////////////////////////////////////////////
     padding: 10px;
     width: 100%;
     justify-content: center;
-}
-
-.imagenFlex {
-    width: 600px;
-    padding: 20px;
-    font-size: 40px;
-}
-
-.imagenFlex img {
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -99,33 +82,6 @@ grid index /////////////////////////////////////////////////////////////////////
     color: #20e2d7;
 }
 
-.gridImagenesMain_index {
-    display: grid;
-    grid-gap: 90px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 40px 150px;
-    grid-template-areas: "imagenParaGridMainUno imagenParaGridMainDos imagenParaGridMainTres imagenParaGridMainCuatro" "imagenParaGridMainUno imagenParaGridMainDos imagenParaGridMainTres imagenParaGridMainCuatro";
-}
-
-.imagenParaGridMainUno {
-    height: 200px;
-    width: 400px;
-}
-
-.imagenParaGridMainDos {
-    height: 200px;
-    width: 400px;
-}
-
-.imagenParaGridMainTres {
-    height: 200px;
-    width: 400px;
-}
-
-.imagenParaGridMainCuatro {
-    height: 200px;
-    width: 400px;
-}
 
 
 /*
@@ -141,15 +97,6 @@ body {
     
 }
 
-.img_paraMain {
-    height: 400px;
-    width: 600px;
-}
-
-.img_paraMaindos {
-    height: 400px;
-    width: 600px;
-}
 
 * {
     font-family: 'Oswald', sans-serif;
@@ -170,19 +117,6 @@ p {
    
 
 
-}
-
-.btn{
-
-    display: inline-block;
-    color: #ffffff;
-    text-align: center;
-    border: 1px solid #ffffff;
-}
-
-
-.btn:hover{
-    color: #ffffff;
 }
 
 .bg-light{
@@ -421,11 +355,6 @@ flex catalogo //////////////////////////////////////////////////////////////////
     width: 600px;
     padding: 20px;
     font-size: 30px;
-}
-
-.flex-item img {
-    margin: 0;
-    padding: 0;
 }
 
 
