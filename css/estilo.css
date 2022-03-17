@@ -436,6 +436,15 @@ p {
   background-color: #ffffff80 !important;
   text-transform: uppercase; }
 
+@media all and (max-width: 1366px) {
+  .cta-search {
+    top: 29%; }
+  .card_titulo {
+    padding-left: 394px; }
+  .gridIndex_verCatalogo {
+    padding: 25px 148px;
+    margin: 48px 434px; } }
+
 @media all and (max-width: 1023px) {
   nav {
     height: 80px; }
@@ -532,7 +541,7 @@ p {
     width: 200px; }
   .cta-search {
     left: 50%;
-    top: 48%;
+    top: 53%;
     transform: translate(-50%, -50%);
     background: rgba(255, 255, 255, 0.5);
     padding: 42px;
@@ -703,6 +712,15 @@ grid contactos /////////////////////////////////////////////////////////////////
 /*
 registrarse ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
+@media all and (max-width: 1366px) {
+  .contacto_de_autos {
+    margin: 20px 400px;
+    padding: 54px 126px; }
+  .titulo_infoContactos {
+    padding-left: 504px; }
+  .condiciones_contactoDos {
+    padding-left: 476px; } }
+
 @media all and (max-width: 1023px) {
   .contacto_de_autos {
     height: 799px;
@@ -783,6 +801,10 @@ mas sobre autos ////////////////////////////////////////////////////////////////
 .video_autosDos {
   font-size: 40px;
   color: #20e2d7; }
+
+@media all and (max-width: 1366px) {
+  .titulo_info {
+    padding-left: 491px; } }
 
 @media all and (max-width: 1023px) {
   .gridCard_videos {
