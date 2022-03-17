@@ -1,23 +1,72 @@
 footer {
-    background-color: #000000a8;
-    bottom: 0;
+    background-color: #353b48;
     width: 100%;
-    height: 160px;
     overflow: hidden;
-    min-height: 10vh;
     display: grid;
     grid-template-areas: "footer";
     gap: 1rem;
+    padding: 50px 0px;
+    background-size: cover;
 }
 
-.footer_titulo {
-    font-size: 25px;
-    color: #20e2d7;
-    padding-left: 850px;
+.container-footer{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+
 }
 
-.imgDiv {
-    padding-left: 870px;
+.box-footer{
+
+display: flex;
+flex-direction: column;
+padding: 40px;
+
+}
+
+.box-footer h2{
+
+    margin-bottom: 30px;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.box-footer a{
+
+    margin-top: 10px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.box-footer a:hover{
+
+    font-size: 0.8;
+
+}
+
+.box-copyright{
+
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box-copyright p{
+
+    margin-top: 20px;
+    color: antiquewhite;
+    
+}
+
+.box-copyright hr{
+
+    border: none;
+    height: 1px;
+
 }
 
 .imgIg {
@@ -30,12 +79,72 @@ footer {
     width: 30px;
 }
 
-.imgYt {
+.imgGm {
     height: 30px;
     width: 30px;
 }
 
-.imgFb {
+/*.col-1-footer{
+
+    position: relative;
+    min-height: 1px;
+    padding-left: 314px;
+    font-size: 20px;
+
+}
+
+.ulFooter{
+
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 78px;
+
+}
+
+.liFooter{
+
+    display: list-item;
+    color: #fafafa;
+
+}
+
+.da-footer{
+
+    width: 100%;
+    bottom: 0;
+    background-color: #353b48;
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+    padding-top: 80px;
+
+}
+
+
+.footer_titulo {
+    font-size: 25px;
+    color: #fafafa;
+    padding-left: 3px;
+}
+
+.imgDiv {
+    padding-left: 1400px;
+}
+
+.imgIg {
+    height: 30px;
+    width: 40px;
+}
+
+.imgTw {
+    height: 30px;
+    width: 30px;
+}
+
+.imgGm {
     height: 30px;
     width: 30px;
 }
@@ -43,4 +152,4 @@ footer {
 .copy {
     font-size: 15px;
     color: #fafafa;
-}
+}*/

@@ -1,0 +1,27 @@
+.cta-search{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 26%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.5);
+    padding: 42px;
+    height: 80px;
+    border-radius: 130px;
+
+}
+
+
+.text_UpBusqueda{
+
+    font-family: 'Poppins',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 530px;
+    padding-top: 7%;
+
+}
