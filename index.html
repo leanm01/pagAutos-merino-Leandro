@@ -10,16 +10,12 @@
     <meta name="description" content="si estas aburrido de las paginas de autos con tematica repetitiva te recomiendo ingresar en esta pagina, no perdes nada y ganas todo :)">
     
     
-    <title>autos</title>
+    <title>Sitio InfoCar</title>
 
     <!-- bootstrap -->
    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     
-    <!-- link css-->
-   
-    <link rel="stylesheet" href="css/estilo.css">
-
     <!--  normalize -->
     
     <link rel="stylesheet" href="css/normalize.css">
@@ -29,6 +25,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+    <!-- link css-->
+   
+    <link rel="stylesheet" href="css/estilo.css">
 
 
 </head>
@@ -98,14 +98,14 @@
 
 
         <!-- buscador -->
-        <div>
 
-            <h2 class="text_UpBusqueda">Que vehiculo desea?</h2>
-
-        </div>
-        
-        
         <div class="cta-search">
+
+            <div>
+
+                <h2 class="text_UpBusqueda">Que vehiculo desea?</h2>
+    
+            </div>
             
             <input type="text" class="buscar_texto" placeholder="busqueda">
             
@@ -118,17 +118,30 @@
         </div>
         
         
-        
+        <!-- grid de noticias -->
         
         <div class="grid_card">
 
-            <h2 class="card_titulo">NOTICIAS</h2>
+            <div class="card_titulo_main">
+                
+                <h2 class="card_titulo">NOTICIAS</h2>
 
-            <p class="card_texto">
-                en esta seccion van a encontrar las ultimas noticias del ambito automovilístico 
-            </p>
+            </div>
+            
+            <div>
 
-            <input type="button" value="VER MAS" class="btn">
+                <p class="card_texto">
+                    en esta seccion van a encontrar las ultimas noticias del ambito automovilístico 
+                </p>
+    
+            </div>
+            
+            <div class="boton_index_verMas">
+
+                <input type="button" value="VER MAS" class="btn">
+            
+            </div>
+            
 
 
         </div>
@@ -182,7 +195,7 @@
 
         <div class="gridIndex_verCatalogo">
 
-            <p class="titulo_catalogo">NUESTRO CATALOGO</p>
+            <p class="titulo_catalogo">PULSE ABAJO PARA INGRESAR EN NUESTRA LISTA DE VEHICULOS</p>
             <li class="linkIndex_catalogo"><a class="aDelIndex_Catalogo" href="catalogo_de_autos.html">CATALOGO</a></li>
 
         </div>
@@ -198,11 +211,11 @@
 
         <div class="box-footer">
             
-            <h2>ayuda sobre</h2>
+            <h2>ayuda</h2>
              
-             <a href="#">desarrollo</a>
-             <a href="#">marketing</a>
-             <a href="#">desarrollo mobile</a>
+             <a href="#">vehiculos</a>
+             <a href="#">posventa</a>
+             <a href="#">accesorios</a>
         
         </div>
 
