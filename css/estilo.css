@@ -513,7 +513,10 @@ p {
     grid-gap: 21px;
     grid-template-columns: auto;
     grid-template-rows: 165px 164px;
-    grid-template-areas: "imagenParaGridMainUno"  "imagenParaGridMainDos"  "imagenParaGridMainTres"  "imagenParaGridMainCuatro";
+    grid-template-areas: "imagenParaGridMainUno" 
+ "imagenParaGridMainDos" 
+ "imagenParaGridMainTres" 
+ "imagenParaGridMainCuatro";
     justify-content: center; }
   footer {
     width: 100%;
@@ -610,7 +613,10 @@ p {
     grid-gap: 72px;
     grid-template-columns: auto;
     grid-template-rows: 165px 164px;
-    grid-template-areas: "imagenParaGridMainUno"  "imagenParaGridMainDos"  "imagenParaGridMainTres"  "imagenParaGridMainCuatro"; }
+    grid-template-areas: "imagenParaGridMainUno" 
+ "imagenParaGridMainDos" 
+ "imagenParaGridMainTres" 
+ "imagenParaGridMainCuatro"; }
   .linkIndex_catalogo {
     justify-content: center; }
   footer {
